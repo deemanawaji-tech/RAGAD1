@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bt70hk3jp657n"]
+
+[ext_resource type="Script" uid="uid://b280wrftqstwd" path="res://Scripts/Reset.gd" id="1_if853"]
+
+[node name="DeathScreen" type="CanvasLayer" unique_id=1803647733]
+layer = 2
+script = ExtResource("1_if853")
+
+[node name="Control" type="Control" parent="." unique_id=106526161]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
